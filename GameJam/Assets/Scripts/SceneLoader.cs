@@ -44,7 +44,7 @@ public class SceneLoader : MonoBehaviour
     }
     public void Resume()
     {
-        miniMenu.SetActive(true);
+        miniMenu.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
