@@ -10,14 +10,15 @@ public class TableTrigger : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if(gameObject.tag == "Player")
+        if(other.tag == "Player")
         {
             onTrigger.Invoke();
+            Debug.Log("triggerrrr");
         }
     }
     public void OnTriggerExit(Collider other)
     {
-        if(gameObject.tag == "Player")
+        if(other.tag == "Player")
         {
             onExit.Invoke();
         }
