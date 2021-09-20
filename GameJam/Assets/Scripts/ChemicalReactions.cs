@@ -107,16 +107,29 @@ public class ChemicalReactions : MonoBehaviour
     {
         table3Correct.SetActive(true);
         table3Origin.SetActive(false);
+        Debug.Log("wooo");
     }
     public void t2Correct()
     {
         table2Correct.SetActive(true);
         table2Origin.SetActive(false);
+        Debug.Log("wooo");
     }
     public void t1Correct()
     {
         table1Correct.SetActive(true);
         table1Origin.SetActive(false);
+        Debug.Log("wooo");
+    }
+    public void SetFalse()
+    {
+        crystal = false;
+        dac = false;
+        s = false;
+        m = false;
+        hp = false;
+        dl = false;
+
     }
 
     public void Crystal()
