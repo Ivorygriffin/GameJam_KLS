@@ -25,13 +25,13 @@ public class ChangeScene : MonoBehaviour
 {
 
 
-    public void LoadNewScene(string sceneName)
+    public void LoadNewScene(string 1)
 
 
     {
 
 
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(1);
 
 
     }
