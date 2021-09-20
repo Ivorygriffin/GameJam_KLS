@@ -71,6 +71,7 @@ public class ChemicalReactions : MonoBehaviour
         if(crystal == true && dac == true && s == false && m == false && dl == false && hp == false)
         {
             ice = true;
+            Debug.Log("wooo");
         }
         if(s == true || m == true || dl == true || hp == true)
         {
@@ -81,7 +82,8 @@ public class ChemicalReactions : MonoBehaviour
     {
         if (crystal == false && dac == false && s == true && m == true && dl == false && hp == false)
         {
-            ice = true;
+            fire = true;
+            Debug.Log("wooo");
         }
         if (crystal == true || dac == true || dl == true || hp == true)
         {
@@ -92,7 +94,8 @@ public class ChemicalReactions : MonoBehaviour
     {
         if(crystal == false && dac == false && s == false && m == false && dl == true && hp == true)
         {
-            ice = true;
+            boom = true;
+            Debug.Log("wooo");
         }
         if(crystal == true || dac == true || s == true || m == true)
         {
@@ -104,16 +107,29 @@ public class ChemicalReactions : MonoBehaviour
     {
         table3Correct.SetActive(true);
         table3Origin.SetActive(false);
+        Debug.Log("wooo");
     }
     public void t2Correct()
     {
         table2Correct.SetActive(true);
         table2Origin.SetActive(false);
+        Debug.Log("wooo");
     }
     public void t1Correct()
     {
         table1Correct.SetActive(true);
         table1Origin.SetActive(false);
+        Debug.Log("wooo");
+    }
+    public void SetFalse()
+    {
+        crystal = false;
+        dac = false;
+        s = false;
+        m = false;
+        hp = false;
+        dl = false;
+
     }
 
     public void Crystal()
@@ -140,5 +156,28 @@ public class ChemicalReactions : MonoBehaviour
     {
         dl = true;
     }
-
+    public void Table1A()
+    {
+        table1 = true;
+    }
+    public void Table2A()
+    {
+        table2 = true;
+    }
+    public void Table3A()
+    {
+        table3 = true;
+    }  
+    public void Table1D()
+    {
+        table1 = false;
+    }
+    public void Table2D()
+    {
+        table2 = false;
+    }
+    public void Table3D()
+    {
+        table3 = false;
+    }
 }

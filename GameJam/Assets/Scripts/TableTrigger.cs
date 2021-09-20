@@ -6,13 +6,21 @@ using UnityEngine.Events;
 public class TableTrigger : MonoBehaviour
 {
     public UnityEvent onTrigger;
-    public GameObject TableZone;
+    public UnityEvent onExit;
+    
     private void OnTriggerEnter(Collider other)
     {
-        if(gameObject.tag == "Player")
+        if(other.tag == "Player")
         {
             onTrigger.Invoke();
+            Debug.Log("triggerrrr");
         }
     }
-
+    public void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Player")
+        {
+            onExit.Invoke();
+        }
+    }
 }
