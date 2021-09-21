@@ -8546,7 +8546,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2087612031}
         m_TargetAssemblyTypeName: ChemicalReactions, Assembly-CSharp
-        m_MethodName: DL
+        m_MethodName: S
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8561,7 +8561,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2087612031}
         m_TargetAssemblyTypeName: ChemicalReactions, Assembly-CSharp
-        m_MethodName: HP
+        m_MethodName: M
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8576,7 +8576,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2087612031}
         m_TargetAssemblyTypeName: ChemicalReactions, Assembly-CSharp
-        m_MethodName: M
+        m_MethodName: DL
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8591,7 +8591,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2087612031}
         m_TargetAssemblyTypeName: ChemicalReactions, Assembly-CSharp
-        m_MethodName: S
+        m_MethodName: HP
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
