@@ -20,7 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 1f237d227c176164f9849c737730d2ff, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: fe47a11a9e7bac542a52cd34e5c6f8af, type: 3}
+>>>>>>> EmilyAshworth
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,11 +44,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: 88bec4b67b51a8b44a7ef1201d7d32ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 2800000, guid: 7fe41bb37b8786c4495a9a1740f7a3a6, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 24845356ace398f45bb62cf71aded3c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 59ed2a1231478b6409df4824d4313e03, type: 3}
+>>>>>>> EmilyAshworth
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -56,7 +68,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+<<<<<<< HEAD
         m_Texture: {fileID: 2800000, guid: dda5ea12cf09a464c98d81555a91d384, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 85d4b69a5edc10f4ea4053abdf55912a, type: 3}
+>>>>>>> EmilyAshworth
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
