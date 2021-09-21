@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &980816530303302677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7359542955327996232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32084322, y: 0.11432399, z: 0.191059}
+  m_Center: {x: 0.2697634, y: 0.057256196, z: -0.021053098}
 --- !u!1001 &7702053125548473369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 943ade249d4cf764f87b1c1f67426549, type: 2}
     - target: {fileID: 919132149155446097, guid: eedca424fb4657b41941555b7e27dfbb, type: 3}
       propertyPath: m_Name
-      value: Table_2_Sink_Textures
+      value: Table_2_Sink_Textures Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1171549304580213878, guid: eedca424fb4657b41941555b7e27dfbb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -89,3 +102,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 943ade249d4cf764f87b1c1f67426549, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eedca424fb4657b41941555b7e27dfbb, type: 3}
+--- !u!1 &7359542955327996232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eedca424fb4657b41941555b7e27dfbb, type: 3}
+  m_PrefabInstance: {fileID: 7702053125548473369}
+  m_PrefabAsset: {fileID: 0}
